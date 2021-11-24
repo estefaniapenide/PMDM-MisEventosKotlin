@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bEj1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EJ01: VARIANTES CALLBACK"
+        app:layout_constraintBottom_toTopOf="@+id/bEj2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bEj2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EJ02: CONTADORES"
+        app:layout_constraintBottom_toTopOf="@+id/bEj3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bEj1" />
+
+    <Button
+        android:id="@+id/bEj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EJ03: BOTÓN PARASITADOR"
+        app:layout_constraintBottom_toTopOf="@+id/bEj4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bEj2" />
+
+    <Button
+        android:id="@+id/bEj4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EJ04: ROTACIÓN"
+        app:layout_constraintBottom_toTopOf="@+id/bEj5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bEj3" />
+
+    <Button
+        android:id="@+id/bEj5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EJ05: NO MIRES"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bEj4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
