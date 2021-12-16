@@ -23,5 +23,7 @@ class MainActivity : AppCompatActivity() {
         binding.bEj4.setOnClickListener{startActivity(Intent(this,Ej04RotacionActivity::class.java))}
 
         binding.bEj5.setOnClickListener{startActivity(Intent(this,Ej05NoMiresActivity::class.java))}
+
+        binding.bEj6.setOnClickListener{startActivity(Intent(this,Ej06QuesoJamonLechugaAtivity::class.java))}
     }
 }

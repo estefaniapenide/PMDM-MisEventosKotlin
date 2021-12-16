@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ej06QuesoJamonLechugaAtivity">
+
+    <CheckBox
+        android:id="@+id/cbJamon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:text="Jamón"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cbQueso"
+        app:layout_constraintEnd_toStartOf="@+id/cbQueso"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cbQueso" />
+
+    <CheckBox
+        android:id="@+id/cbQueso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:background="#03A9F4"
+        android:text="Queso"
+        android:paddingEnd="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/cbLechuga"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cbJamon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbLechuga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:text="Lechuga"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cbQueso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cbQueso"
+        app:layout_constraintTop_toTopOf="@+id/cbQueso" />
+
+    <TextView
+        android:id="@+id/tvFrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/cbQueso"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toEndOf="@+id/cbJamon"
+        app:layout_constraintTop_toBottomOf="@+id/cbQueso" />
+</androidx.constraintlayout.widget.ConstraintLayout>

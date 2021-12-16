@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MisEventosKotlin">
         <activity
+            android:name=".Ej06QuesoJamonLechugaAtivity"
+            android:exported="true" />
+        <activity
             android:name=".Ej05NoMiresActivity"
             android:exported="false" />
         <activity
